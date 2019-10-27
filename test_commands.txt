@@ -1,0 +1,44 @@
+ pytest test_math_func.py 
+ pytest test_math_func.py 
+ pytest test_math_func.py 
+  451  pytest test_math_func.py -v
+  452  py.test
+  453  py.test -v
+  454  py.test -v
+  455  py.test -v
+  456  py.test -v
+  457  pytest test_math_func.py ::test_add
+  458  pytest test_math_func.py::test_add
+  459  clear
+  460  pytest -v -k "add"
+  461  pytest -v -k "add or string"
+  462  pytest -v -k "add and string"
+  463  pytest -v -m number
+  464  pytest -v -m number
+  465  pytest -v -m number1
+  466  pytest -v -m number
+  467  pytest -v -m number
+  468  pytest -v -x
+  469  pytest -v -x
+  470  pytest -v -x --tb=no
+  471  pytest -v -x --maxfail=2
+  472  pytest -v -x --maxfail=1
+  473  pytest -v 
+  474  pytest -v -rsx
+  475  clear
+  476  pytest -v -rsx
+  477  pytest -v -rsx
+  478  pytest -v -rsx
+  479  pytest -v -rsx
+  480  pytest -v -rsx
+  481  pytest -v -rsx
+  482  history
+  483  pytest -v
+  484  pytest -v -s
+  485  pytest -v -s
+  486  pytest -v -s
+  487  pytest -v -s
+  488  pytest -v -s
+  489  pytest -v -s
+  490  pytest -v -s
+
